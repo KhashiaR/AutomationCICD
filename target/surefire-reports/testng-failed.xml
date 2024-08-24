@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ABCAcademy.TestComponents.N2_Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="ABCAcademy.Tests.N3_ErrorValidationsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ProductErrorValidation"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ABCAcademy.Tests.N3_ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
