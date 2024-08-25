@@ -24,7 +24,7 @@ public class N1_StandAloineTest {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		//new comments are added
+		//new comments are added jaaaa
 		String productName = "ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
